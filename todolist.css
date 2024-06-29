@@ -6,7 +6,7 @@ body{
   color:white;
   background-color: green;
   text-align: center;
-  font-size: 20px;
+  font-size: 16pt;
   padding: 20px;
   margin-bottom: 16px;
 }
@@ -17,16 +17,18 @@ body{
   column-gap: 3px;
   row-gap: 3px;
   align-items: center;
+  height:30px;
 }
 
 .input-grid{
   margin-bottom: 3px;
   align-items: stretch;
+  height: 30px;
 }
 
 .input, .dateinput{
-  font-size: 13px;
-  padding: 3px;
+  padding: 5px;
+  font-size:12pt;
 }
 
 .add-todo-btn{
@@ -44,4 +46,4 @@ body{
   font-size: 13px;
   cursor: pointer;
   padding: 3px;
-}
+  }
